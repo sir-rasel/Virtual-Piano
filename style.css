@@ -1,0 +1,58 @@
+body {
+    background-color: seagreen;
+    padding-top: 20vh;
+}
+
+.container {
+    background: bisque;
+    border: 2px dotted red;
+    border-radius: 10px;
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20pt;
+    position: relative;
+}
+
+kbd {
+    display: inline-block;
+    border: 2px solid gray;
+    text-align: center;
+    font-family: "Georgia", sans-serif;
+}
+
+.white-keys kbd {
+    width: 50px;
+    margin-left: -5px;
+    background-color: #fff;
+    padding: 250px 0 50px 0;
+}
+
+.black-keys kbd {
+    width: 25px;
+    margin-right: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 150px 0 50px 0;
+}
+
+.black-keys{
+    padding: 5px;
+    position: absolute;
+    top: 47px;
+    left: 35px;
+}
+
+.white-keys{
+    padding: 5px 2px 5px 5px;
+}
+
+#KeyT{
+    margin-left: 55px;
+}
+
+p{
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Ubuntu Mono', monospace;
+}
